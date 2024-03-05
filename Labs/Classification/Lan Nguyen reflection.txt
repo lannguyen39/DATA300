@@ -1,0 +1,39 @@
+A.
+#1. 
+ZeroR is considered the baseline because ZeroR only concern about the outcome of the dataset, or the classifications of the data. It also reveals that if we use ZeroR classification algorithm, what is the accuracy.
+
+#2. 
+The selection for value for 'k' does affect the model, and the higher the value for 'k', the need for higher accuracy is needed. But in the example model, 'k' has such a good accurary at a low value, the difference could also be considered as non-existent.
+
+#3.
+"max_depth" controls the level of the decision tree, if no value is given, then the tree would expand till the final classification. 
+"min_sample_split" controls the minimum number of samples to split into another branch.
+"min_sample_leaf" controls the minimum number of samples to be at a branch. 
+
+B.
+#4.
+Before applying to a classification model, the data needs to be cleaned, and make sure that it has enough class distribution for the model. 
+
+#5.
+Split is done to ensure that the training data maintain class distribution.
+The test set is needed to see if the model is classifiying data correctly according to the training set. It is the validation sets. 
+
+#6.
+The training process make sure algorithm learns from the provided training data to create a model that can predict the class labels of new instances.
+The model learn by adjusting and applying the patterns or rules based on the training dataset. 
+
+#7.
+The testing process is done by applying the model using the pattern based on the training dataset.
+Test set performance can be based on the accuracy the predictions and precisions based on the error and positive predictions.
+
+#8.
+When tuning the parameters, we can always tune the parameters based on the accuracy of the training model. 
+This can produce either a less or a more accurate model in testing phase. 
+
+#9.
+A model can generalize well when it can predict any instances that was not shown in the training set.
+A model generalization can be assess by the fitting of the instance into the model, if the instance provide something new to the data. It can also be assess by capturing the pattern of the datasets.
+
+#10.
+It is considered as a iterative process because we would always look at the training model and the algorithm repetitively relearning what the pattern is and how the new instance fit into the pattern.
+Based on the results, you can refine by making sure the data is fit into the model, cross examining other model, or making sure the model has not encountered the data itself before. 
